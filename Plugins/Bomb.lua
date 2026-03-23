@@ -1,4 +1,3 @@
-baseDirectionAwayFromWall = Vector3.new(0,0,1) end
 
     local cameraLook = camera.CFrame.LookVector
     local horizontalCameraLook = Vector3.new(cameraLook.X, 0, cameraLook.Z).Unit
